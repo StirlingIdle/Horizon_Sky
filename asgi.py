@@ -1,5 +1,5 @@
 """
-ASGI config for Horizon project.
+ASGI config for Horizon_Sky project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Horizon.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Horizon_Sky.settings")
 
 application = get_asgi_application()
